@@ -22,6 +22,7 @@
   - editorconfig
   - commitlint/husky
   - tsconfigs
+  - reach/router
 
 ## Commitlint usage
 
