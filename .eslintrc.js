@@ -39,7 +39,17 @@ module.exports = {
       {
         "allowSingleExtends": true
       }
-    ]
+    ],
+    "import/extensions": [
+      "error",
+      "ignorePackages",
+      {
+        "js": "never",
+        "jsx": "never",
+        "ts": "never",
+        "tsx": "never"
+      }
+   ],
   },
   settings: {
     'import/parsers': {
